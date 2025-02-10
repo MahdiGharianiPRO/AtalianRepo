@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>FR_AtalianAgency__c</fullName>
+        <label>Atalian agency</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>User_Creator_Country__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>BE - AK - Aktrion</fullName>
+                    <default>false</default>
+                    <label>BE - AK - Aktrion</label>
+                </value>
+                <value>
+                    <fullName>BE - C1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C1</label>
+                </value>
+                <value>
+                    <fullName>BE - C1 - Brussels Large accounts</fullName>
+                    <default>false</default>
+                    <label>BE - C1 - Brussels Large accounts</label>
+                </value>
+                <value>
+                    <fullName>BE - C2</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C2</label>
+                </value>
+                <value>
+                    <fullName>BE - C2 - Antwerpen</fullName>
+                    <default>false</default>
+                    <label>BE - C2 - Antwerpen</label>
+                </value>
+                <value>
+                    <fullName>BE - C3</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C3</label>
+                </value>
+                <value>
+                    <fullName>BE - C3 - Gent</fullName>
+                    <default>false</default>
+                    <label>BE - C3 - Gent</label>
+                </value>
+                <value>
+                    <fullName>BE - C4</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C4</label>
+                </value>
+                <value>
+                    <fullName>BE - C4 - Key accounts</fullName>
+                    <default>false</default>
+                    <label>BE - C4 - Key accounts</label>
+                </value>
+                <value>
+                    <fullName>BE - C5</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C5</label>
+                </value>
+                <value>
+                    <fullName>BE - C5 - Limburg</fullName>
+                    <default>false</default>
+                    <label>BE - C5 - Limburg</label>
+                </value>
+                <value>
+                    <fullName>BE - C6</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C6</label>
+                </value>
+                <value>
+                    <fullName>BE - C6 - Brussels</fullName>
+                    <default>false</default>
+                    <label>BE - C6 - Brussels</label>
+                </value>
+                <value>
+                    <fullName>BE - C7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - C7</label>
+                </value>
+                <value>
+                    <fullName>BE - C7 - Walloon</fullName>
+                    <default>false</default>
+                    <label>BE - C7 - Walloon</label>
+                </value>
+                <value>
+                    <fullName>BE - C8 - Commission Européenne</fullName>
+                    <default>false</default>
+                    <label>BE - C8 - Commission Européenne</label>
+                </value>
+                <value>
+                    <fullName>BE - C9 - Window Cleaning</fullName>
+                    <default>false</default>
+                    <label>BE - C9 - Window Cleaning</label>
+                </value>
+                <value>
+                    <fullName>BE - CAT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE - CAT</label>
+                </value>
+                <value>
+                    <fullName>BE - CAT - Catering</fullName>
+                    <default>false</default>
+                    <label>BE - CAT - Catering</label>
+                </value>
+                <value>
+                    <fullName>BE - Multi-agencies</fullName>
+                    <default>false</default>
+                    <label>BE - Multi-agencies</label>
+                </value>
+                <value>
+                    <fullName>BE – Multi-agencies</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BE – Multi-agencies</label>
+                </value>
+                <value>
+                    <fullName>BE - TECH - Technical Maintenance</fullName>
+                    <default>false</default>
+                    <label>BE - TECH - Technical Maintenance</label>
+                </value>
+                <value>
+                    <fullName>FR - AGEN</fullName>
+                    <default>false</default>
+                    <label>FR - AGEN</label>
+                </value>
+                <value>
+                    <fullName>FR - AIX EN PROVENCE</fullName>
+                    <default>false</default>
+                    <label>FR - AIX EN PROVENCE</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – Agence - Auterive</fullName>
+                    <default>false</default>
+                    <label>FR – AME – Agence - Auterive</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – Agence - Bordeaux</fullName>
+                    <default>false</default>
+                    <label>FR – AME – Agence - Bordeaux</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – Agence - Dijon</fullName>
+                    <default>false</default>
+                    <label>FR – AME – Agence - Dijon</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – Agence - La Maine Maromme</fullName>
+                    <default>false</default>
+                    <label>FR – AME – Agence - La Maine Maromme</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – Agence - Nantes</fullName>
+                    <default>false</default>
+                    <label>FR – AME – Agence - Nantes</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – Agence - Pérols</fullName>
+                    <default>false</default>
+                    <label>FR – AME – Agence - Pérols</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Aubervilliers</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Aubervilliers</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Bouc-Bel-Air</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Bouc-Bel-Air</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Canéjan</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Canéjan</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Illkirch</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Illkirch</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Landerneau</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Landerneau</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Meyzieu</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Meyzieu</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Orchies</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Orchies</label>
+                </value>
+                <value>
+                    <fullName>FR – AME – DR - Rungis</fullName>
+                    <default>false</default>
+                    <label>FR – AME – DR - Rungis</label>
+                </value>
+                <value>
+                    <fullName>FR - AMIENS</fullName>
+                    <default>false</default>
+                    <label>FR - AMIENS</label>
+                </value>
+                <value>
+                    <fullName>FR - ANGERS</fullName>
+                    <default>false</default>
+                    <label>FR - ANGERS</label>
+                </value>
+                <value>
+                    <fullName>FR - ANGLET</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR - ANGLET</label>
+                </value>
+                <value>
+                    <fullName>FR - ANNECY</fullName>
+                    <default>false</default>
+                    <label>FR - ANNECY</label>
+                </value>
+                <value>
+                    <fullName>FR - AUXERRE-SENS</fullName>
+                    <default>false</default>
+                    <label>FR - AUXERRE-SENS</label>
+                </value>
+                <value>
+                    <fullName>FR - AVEYRON</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR - AVEYRON</label>
+                </value>
+                <value>
+                    <fullName>FR - AVIGNON</fullName>
+                    <default>false</default>
+                    <label>FR - AVIGNON</label>
+                </value>
+                <value>
+                    <fullName>FR - BAYONNE</fullName>
+                    <default>false</default>
+                    <label>FR - BAYONNE</label>
+                </value>
+                <value>
+                    <fullName>FR - BIOT</fullName>
+                    <default>false</default>
+                    <label>FR - BIOT</label>
+                </value>
+                <value>
+                    <fullName>FR - BLOIS</fullName>
+                    <default>false</default>
+                    <label>FR - BLOIS</label>
+                </value>
+                <value>
+                    <fullName>FR - BORDEAUX 2</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR - BORDEAUX 2</label>
+                </value>
+                <value>
+                    <fullName>FR - BORDEAUX 3</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR - BORDEAUX 3</label>
+                </value>
+                <value>
+                    <fullName>FR - BORDEAUX CANEJAN</fullName>
+                    <default>false</default>
+                    <label>FR - BORDEAUX CANEJAN</label>
+                </value>
+                <value>
+                    <fullName>FR - BORDEAUX GRADIGNAN</fullName>
+                    <default>false</default>
+                    <label>FR - BORDEAUX GRADIGNAN</label>
+                </value>
+                <value>
+                    <fullName>FR - BORDEAUX - MULTITECH</fullName>
+                    <default>false</default>
+                    <label>FR - BORDEAUX - MULTITECH</label>
+                </value>
+                <value>
+                    <fullName>FR - BOURG EN BRESSE</fullName>
+                    <default>false</default>
+                    <label>FR - BOURG EN BRESSE</label>
+                </value>
+                <value>
+                    <fullName>FR - BREST</fullName>
+                    <default>false</default>
+                    <label>FR - BREST</label>
+                </value>
+                <value>
+                    <fullName>FR - CAEN</fullName>
+                    <default>false</default>
+                    <label>FR - CAEN</label>
+                </value>
+                <value>
+                    <fullName>FR - CALAIS</fullName>
+                    <default>false</default>
+                    <label>FR - CALAIS</label>
+                </value>
+                <value>
+                    <fullName>FR - CAMMARATA</fullName>
+                    <default>false</default>
+                    <label>FR - CAMMARATA</label>
+                </value>
+                <value>
+                    <fullName>FR - CANTELEU</fullName>
+                    <default>false</default>
+                    <label>FR - CANTELEU</label>
+                </value>
+                <value>
+                    <fullName>FR - CHAMBERY</fullName>
+                    <default>false</default>
+                    <label>FR - CHAMBERY</label>
+                </value>
+                <value>
+                    <fullName>FR - CHRONOPOST CORBAS</fullName>
+                    <default>false</default>
+                    <label>FR - CHRONOPOST CORBAS</label>
+                </value>
+                <value>
+                    <fullName>FR - CLERMONT-FERRAND</fullName>
+                    <default>false</default>
+                    <label>FR - CLERMONT-FERRAND</label>
+                </value>
+                <value>
+                    <fullName>FR - CORMONTREUIL</fullName>
+                    <default>false</default>
+                    <label>FR - CORMONTREUIL</label>
+                </value>
+                <value>
+                    <fullName>FR - COURTHEZON</fullName>
+                    <default>false</default>
+                    <label>FR - COURTHEZON</label>
+                </value>
+                <value>
+                    <fullName>FR - DIJON</fullName>
+                    <default>false</default>
+                    <label>FR - DIJON</label>
+                </value>
+                <value>
+                    <fullName>FR - EPERNAY</fullName>
+                    <default>false</default>
+                    <label>FR - EPERNAY</label>
+                </value>
+                <value>
+                    <fullName>FR - EPPSI</fullName>
+                    <default>false</default>
+                    <label>FR - EPPSI</label>
+                </value>
+                <value>
+                    <fullName>FR - FINISTERE</fullName>
+                    <default>false</default>
+                    <label>FR - FINISTERE</label>
+                </value>
+                <value>
+                    <fullName>FR - FOS SUR MER</fullName>
+                    <default>false</default>
+                    <label>FR - FOS SUR MER</label>
+                </value>
+                <value>
+                    <fullName>FR - GARDANNE</fullName>
+                    <default>false</default>
+                    <label>FR - GARDANNE</label>
+                </value>
+                <value>
+                    <fullName>FR - GRENOBLE</fullName>
+                    <default>false</default>
+                    <label>FR - GRENOBLE</label>
+                </value>
+                <value>
+                    <fullName>FR - GUEUGNON</fullName>
+                    <default>false</default>
+                    <label>FR - GUEUGNON</label>
+                </value>
+                <value>
+                    <fullName>FR - HEI-CMR</fullName>
+                    <default>false</default>
+                    <label>FR - HEI-CMR</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF-CDG</fullName>
+                    <default>false</default>
+                    <label>FR - IDF-CDG</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF EST</fullName>
+                    <default>false</default>
+                    <label>FR - IDF EST</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF FM</fullName>
+                    <default>false</default>
+                    <label>FR - IDF FM</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF-HOPITAUX</fullName>
+                    <default>false</default>
+                    <label>FR - IDF-HOPITAUX</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF-MULTISERVICE</fullName>
+                    <default>false</default>
+                    <label>FR - IDF-MULTISERVICE</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF NORD</fullName>
+                    <default>false</default>
+                    <label>FR - IDF NORD</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF-OPAC-DA</fullName>
+                    <default>false</default>
+                    <label>FR - IDF-OPAC-DA</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF OUEST</fullName>
+                    <default>false</default>
+                    <label>FR - IDF OUEST</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF SUD</fullName>
+                    <default>false</default>
+                    <label>FR - IDF SUD</label>
+                </value>
+                <value>
+                    <fullName>FR - IDF-TURGY</fullName>
+                    <default>false</default>
+                    <label>FR - IDF-TURGY</label>
+                </value>
+                <value>
+                    <fullName>FR - LAGNY LE SEC</fullName>
+                    <default>false</default>
+                    <label>FR - LAGNY LE SEC</label>
+                </value>
+                <value>
+                    <fullName>FR - LA ROCHE SUR YON</fullName>
+                    <default>false</default>
+                    <label>FR - LA ROCHE SUR YON</label>
+                </value>
+                <value>
+                    <fullName>FR - LA SEYNE SUR MER</fullName>
+                    <default>false</default>
+                    <label>FR - LA SEYNE SUR MER</label>
+                </value>
+                <value>
+                    <fullName>FR - LE HAVRE</fullName>
+                    <default>false</default>
+                    <label>FR - LE HAVRE</label>
+                </value>
+                <value>
+                    <fullName>FR - LE MANS</fullName>
+                    <default>false</default>
+                    <label>FR - LE MANS</label>
+                </value>
+                <value>
+                    <fullName>FR - LES PENNES MIRABEAU</fullName>
+                    <default>false</default>
+                    <label>FR - LES PENNES MIRABEAU</label>
+                </value>
+                <value>
+                    <fullName>FR - LILLE</fullName>
+                    <default>false</default>
+                    <label>FR - LILLE</label>
+                </value>
+                <value>
+                    <fullName>FR - LIMOGES</fullName>
+                    <default>false</default>
+                    <label>FR - LIMOGES</label>
+                </value>
+                <value>
+                    <fullName>FR - LNH</fullName>
+                    <default>false</default>
+                    <label>FR - LNH</label>
+                </value>
+                <value>
+                    <fullName>FR - LORIENT</fullName>
+                    <default>false</default>
+                    <label>FR - LORIENT</label>
+                </value>
+                <value>
+                    <fullName>FR - LORRAINE</fullName>
+                    <default>false</default>
+                    <label>FR - LORRAINE</label>
+                </value>
+                <value>
+                    <fullName>FR - LOUVIERS</fullName>
+                    <default>false</default>
+                    <label>FR - LOUVIERS</label>
+                </value>
+                <value>
+                    <fullName>FR - LUNEL VIEL</fullName>
+                    <default>false</default>
+                    <label>FR - LUNEL VIEL</label>
+                </value>
+                <value>
+                    <fullName>FR - LYON</fullName>
+                    <default>false</default>
+                    <label>FR - LYON</label>
+                </value>
+                <value>
+                    <fullName>FR - LYON CARRARD</fullName>
+                    <default>false</default>
+                    <label>FR - LYON CARRARD</label>
+                </value>
+                <value>
+                    <fullName>FR - LYON-GERLAND</fullName>
+                    <default>false</default>
+                    <label>FR - LYON-GERLAND</label>
+                </value>
+                <value>
+                    <fullName>FR - MARCOULE</fullName>
+                    <default>false</default>
+                    <label>FR - MARCOULE</label>
+                </value>
+                <value>
+                    <fullName>FR - MAROLLES</fullName>
+                    <default>false</default>
+                    <label>FR - MAROLLES</label>
+                </value>
+                <value>
+                    <fullName>FR – MAROMME</fullName>
+                    <default>false</default>
+                    <label>FR – MAROMME</label>
+                </value>
+                <value>
+                    <fullName>FR - MARSEILLE</fullName>
+                    <default>false</default>
+                    <label>FR - MARSEILLE</label>
+                </value>
+                <value>
+                    <fullName>FR - MASSENA</fullName>
+                    <default>false</default>
+                    <label>FR - MASSENA</label>
+                </value>
+                <value>
+                    <fullName>FR - METZ</fullName>
+                    <default>false</default>
+                    <label>FR - METZ</label>
+                </value>
+                <value>
+                    <fullName>FR - MEYZIEU</fullName>
+                    <default>false</default>
+                    <label>FR - MEYZIEU</label>
+                </value>
+                <value>
+                    <fullName>FR - MEYZIEU LIMPA</fullName>
+                    <default>false</default>
+                    <label>FR - MEYZIEU LIMPA</label>
+                </value>
+                <value>
+                    <fullName>FR - MONTARGIS</fullName>
+                    <default>false</default>
+                    <label>FR - MONTARGIS</label>
+                </value>
+                <value>
+                    <fullName>FR - MONTLUCON</fullName>
+                    <default>false</default>
+                    <label>FR - MONTLUCON</label>
+                </value>
+                <value>
+                    <fullName>FR - MONTPELLIER</fullName>
+                    <default>false</default>
+                    <label>FR - MONTPELLIER</label>
+                </value>
+                <value>
+                    <fullName>FR - MULHOUSE</fullName>
+                    <default>false</default>
+                    <label>FR - MULHOUSE</label>
+                </value>
+                <value>
+                    <fullName>FR - NANCY</fullName>
+                    <default>false</default>
+                    <label>FR - NANCY</label>
+                </value>
+                <value>
+                    <fullName>FR - NANTES</fullName>
+                    <default>false</default>
+                    <label>FR - NANTES</label>
+                </value>
+                <value>
+                    <fullName>FR - NANTES AIRBUS</fullName>
+                    <default>false</default>
+                    <label>FR - NANTES AIRBUS</label>
+                </value>
+                <value>
+                    <fullName>FR - NATIONAL</fullName>
+                    <default>false</default>
+                    <label>FR - NATIONAL</label>
+                </value>
+                <value>
+                    <fullName>FR - NET EXPRESS</fullName>
+                    <default>false</default>
+                    <label>FR - NET EXPRESS</label>
+                </value>
+                <value>
+                    <fullName>FR - NEVERS</fullName>
+                    <default>false</default>
+                    <label>FR - NEVERS</label>
+                </value>
+                <value>
+                    <fullName>FR - NICE</fullName>
+                    <default>false</default>
+                    <label>FR - NICE</label>
+                </value>
+                <value>
+                    <fullName>FR - NIMES</fullName>
+                    <default>false</default>
+                    <label>FR - NIMES</label>
+                </value>
+                <value>
+                    <fullName>FR - NIORT</fullName>
+                    <default>false</default>
+                    <label>FR - NIORT</label>
+                </value>
+                <value>
+                    <fullName>FR - ORANGE</fullName>
+                    <default>false</default>
+                    <label>FR - ORANGE</label>
+                </value>
+                <value>
+                    <fullName>FR - ORLEANS</fullName>
+                    <default>false</default>
+                    <label>FR - ORLEANS</label>
+                </value>
+                <value>
+                    <fullName>FR - PALAISEAU</fullName>
+                    <default>false</default>
+                    <label>FR - PALAISEAU</label>
+                </value>
+                <value>
+                    <fullName>FR - PAOLI CALMETTE</fullName>
+                    <default>false</default>
+                    <label>FR - PAOLI CALMETTE</label>
+                </value>
+                <value>
+                    <fullName>FR - PAU</fullName>
+                    <default>false</default>
+                    <label>FR - PAU</label>
+                </value>
+                <value>
+                    <fullName>FR - PERPIGNAN</fullName>
+                    <default>false</default>
+                    <label>FR - PERPIGNAN</label>
+                </value>
+                <value>
+                    <fullName>FR - POITIERS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR - POITIERS</label>
+                </value>
+                <value>
+                    <fullName>FR - REIMS</fullName>
+                    <default>false</default>
+                    <label>FR - REIMS</label>
+                </value>
+                <value>
+                    <fullName>FR - RENNES</fullName>
+                    <default>false</default>
+                    <label>FR - RENNES</label>
+                </value>
+                <value>
+                    <fullName>FR - RODEZ</fullName>
+                    <default>false</default>
+                    <label>FR - RODEZ</label>
+                </value>
+                <value>
+                    <fullName>FR - ROUEN</fullName>
+                    <default>false</default>
+                    <label>FR - ROUEN</label>
+                </value>
+                <value>
+                    <fullName>FR - SAINT BRIEUC</fullName>
+                    <default>false</default>
+                    <label>FR - SAINT BRIEUC</label>
+                </value>
+                <value>
+                    <fullName>FR - SAINTES</fullName>
+                    <default>false</default>
+                    <label>FR - SAINTES</label>
+                </value>
+                <value>
+                    <fullName>FR - SAINT ETIENNE</fullName>
+                    <default>false</default>
+                    <label>FR - SAINT ETIENNE</label>
+                </value>
+                <value>
+                    <fullName>FR - SAINT-NAZAIRE</fullName>
+                    <default>false</default>
+                    <label>FR - SAINT-NAZAIRE</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - AEROPORTUAIRE (APFS)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - AEROPORTUAIRE (APFS)</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - AQUITAINE – OCCITANIE (CANEJAN)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - AQUITAINE – OCCITANIE (CANEJAN)</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - AURA (MEYZIEU)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - AURA (MEYZIEU)</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - GRAND EST (REIMS)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - GRAND EST (REIMS)</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - HAUTS DE FRANCE (ORCHIES)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - HAUTS DE FRANCE (ORCHIES)</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - NORMANDIE (LE HAVRE)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - NORMANDIE (LE HAVRE)</label>
+                </value>
+                <value>
+                    <fullName>FR - SECURITE - OUEST (CARQUEFOU – LE MANS)</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - OUEST (CARQUEFOU – LE MANS)</label>
+                </value>
+                <value>
+                    <fullName>FR - MARSEILLE - SECURITE</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - PACA (MARSEILLE)</label>
+                </value>
+                <value>
+                    <fullName>FR - PARIS 1 - SECURITE</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - PARIS 1</label>
+                </value>
+                <value>
+                    <fullName>FR - PARIS 12 - SECURITE</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - PARIS 12 - DISTRIBUTION</label>
+                </value>
+                <value>
+                    <fullName>FR - PARIS 2 - SECURITE</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - PARIS 2</label>
+                </value>
+                <value>
+                    <fullName>FR - PARIS 6 SNCF - SECURITE</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - PARIS 6 - FERROVIAIRE</label>
+                </value>
+                <value>
+                    <fullName>FR - SUCY EN BRIE - SECURITE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR SECURITE - SUCY EN BRIE</label>
+                </value>
+                <value>
+                    <fullName>FR - AST</fullName>
+                    <default>false</default>
+                    <label>FR - SECURITE - TECHNOLOGIE (AST)</label>
+                </value>
+                <value>
+                    <fullName>FR - SNCF</fullName>
+                    <default>false</default>
+                    <label>FR - SNCF</label>
+                </value>
+                <value>
+                    <fullName>FR - ST MICRO</fullName>
+                    <default>false</default>
+                    <label>FR - ST MICRO</label>
+                </value>
+                <value>
+                    <fullName>FR - STRASBOURG</fullName>
+                    <default>false</default>
+                    <label>FR - STRASBOURG</label>
+                </value>
+                <value>
+                    <fullName>FR - SUCY-LEROUX</fullName>
+                    <default>false</default>
+                    <label>FR - SUCY-LEROUX</label>
+                </value>
+                <value>
+                    <fullName>FR - TAISSY</fullName>
+                    <default>false</default>
+                    <label>FR - TAISSY</label>
+                </value>
+                <value>
+                    <fullName>FR - TOULOUSE 2</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FR - TOULOUSE 2</label>
+                </value>
+                <value>
+                    <fullName>FR - TOULOUSE AUTERIVE</fullName>
+                    <default>false</default>
+                    <label>FR - TOULOUSE AUTERIVE</label>
+                </value>
+                <value>
+                    <fullName>FR - TOULOUSE - MULTITECH</fullName>
+                    <default>false</default>
+                    <label>FR - TOULOUSE - MULTITECH</label>
+                </value>
+                <value>
+                    <fullName>FR - TOULOUSE RAMONVILLE</fullName>
+                    <default>false</default>
+                    <label>FR - TOULOUSE RAMONVILLE</label>
+                </value>
+                <value>
+                    <fullName>FR - TOURS</fullName>
+                    <default>false</default>
+                    <label>FR - TOURS</label>
+                </value>
+                <value>
+                    <fullName>FR - TRANSKEO</fullName>
+                    <default>false</default>
+                    <label>FR - TRANSKEO</label>
+                </value>
+                <value>
+                    <fullName>FR - TREMERY</fullName>
+                    <default>false</default>
+                    <label>FR - TREMERY</label>
+                </value>
+                <value>
+                    <fullName>FR - TRICASTIN</fullName>
+                    <default>false</default>
+                    <label>FR - TRICASTIN</label>
+                </value>
+                <value>
+                    <fullName>FR - TROYES</fullName>
+                    <default>false</default>
+                    <label>FR - TROYES</label>
+                </value>
+                <value>
+                    <fullName>FR - USP</fullName>
+                    <default>false</default>
+                    <label>FR - USP</label>
+                </value>
+                <value>
+                    <fullName>FR - USP-CHARTRES</fullName>
+                    <default>false</default>
+                    <label>FR - USP-CHARTRES</label>
+                </value>
+                <value>
+                    <fullName>FR - USP-CLICHY</fullName>
+                    <default>false</default>
+                    <label>FR - USP-CLICHY</label>
+                </value>
+                <value>
+                    <fullName>FR - USP-MONTROUGE</fullName>
+                    <default>false</default>
+                    <label>FR - USP-MONTROUGE</label>
+                </value>
+                <value>
+                    <fullName>FR - USP-RATP</fullName>
+                    <default>false</default>
+                    <label>FR - USP-RATP</label>
+                </value>
+                <value>
+                    <fullName>FR - VALENCE</fullName>
+                    <default>false</default>
+                    <label>FR - VALENCE</label>
+                </value>
+                <value>
+                    <fullName>FR - VAR-TOULON</fullName>
+                    <default>false</default>
+                    <label>FR - VAR-TOULON</label>
+                </value>
+                <value>
+                    <fullName>FR - VENISSIEUX</fullName>
+                    <default>false</default>
+                    <label>FR - VENISSIEUX</label>
+                </value>
+                <value>
+                    <fullName>FR - VILLEFONTAINE</fullName>
+                    <default>false</default>
+                    <label>FR - VILLEFONTAINE</label>
+                </value>
+                <value>
+                    <fullName>FR - VILLENEUVE</fullName>
+                    <default>false</default>
+                    <label>FR - VILLENEUVE</label>
+                </value>
+                <value>
+                    <fullName>FR - VITRY LE FRANCOIS</fullName>
+                    <default>false</default>
+                    <label>FR - VITRY LE FRANCOIS</label>
+                </value>
+                <value>
+                    <fullName>FR - WAMBRECHIES</fullName>
+                    <default>false</default>
+                    <label>FR - WAMBRECHIES</label>
+                </value>
+                <value>
+                    <fullName>Ile de France</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Ile de France</label>
+                </value>
+                <value>
+                    <fullName>LUX - AGS</fullName>
+                    <default>false</default>
+                    <label>LUX - AGS</label>
+                </value>
+                <value>
+                    <fullName>LUX - CITY ONE</fullName>
+                    <default>false</default>
+                    <label>LUX - CITY ONE</label>
+                </value>
+                <value>
+                    <fullName>LUX - MTO</fullName>
+                    <default>false</default>
+                    <label>LUX - MTO</label>
+                </value>
+                <value>
+                    <fullName>LUX - Multi-agencies</fullName>
+                    <default>false</default>
+                    <label>LUX - Multi-agencies</label>
+                </value>
+                <value>
+                    <fullName>LUX – Multi-agencies</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LUX – Multi-agencies</label>
+                </value>
+                <value>
+                    <fullName>NANCY / METZ INDUSTRIEL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NANCY / METZ INDUSTRIEL</label>
+                </value>
+                <value>
+                    <fullName>NL - VISSCHEDIJK CATERING BV</fullName>
+                    <default>false</default>
+                    <label>NL - CATERING</label>
+                </value>
+                <value>
+                    <fullName>NL - VISSCHEDIJK FACILITAIR BV</fullName>
+                    <default>false</default>
+                    <label>NL - FACILITAIR</label>
+                </value>
+                <value>
+                    <fullName>NL - VISSCHEDIJK - Multi-agencies</fullName>
+                    <default>false</default>
+                    <label>NL - Multi-agencies</label>
+                </value>
+                <value>
+                    <fullName>NL - VISSCHEDIJK SHOONMAAK + BV</fullName>
+                    <default>false</default>
+                    <label>NL - SHOONMAAK +</label>
+                </value>
+                <value>
+                    <fullName>NL - VISSCHEDIJK SHOONMAAK NO BV</fullName>
+                    <default>false</default>
+                    <label>NL - SHOONMAAK NO</label>
+                </value>
+                <value>
+                    <fullName>NL - VISSCHEDIJK SHOONMAAK ZW BV</fullName>
+                    <default>false</default>
+                    <label>NL - SHOONMAAK ZW</label>
+                </value>
+                <value>
+                    <fullName>Nord-Pas de Calais</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Nord-Pas de Calais</label>
+                </value>
+                <value>
+                    <fullName>ORLEANS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ORLEANS</label>
+                </value>
+                <value>
+                    <fullName>PICARDIE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PICARDIE</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - AK - Aktrion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C1 - Brussels Large accounts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C2 - Antwerpen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C3 - Gent</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C4 - Key accounts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C5 - Limburg</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C6 - Brussels</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C7 - Walloon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C8 - Commission Européenne</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - C9 - Window Cleaning</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - CAT - Catering</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - Multi-agencies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>BE</controllingFieldValue>
+                <valueName>BE - TECH - Technical Maintenance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - AGEN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - AIX EN PROVENCE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – Agence - Auterive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – Agence - Bordeaux</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – Agence - Dijon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – Agence - La Maine Maromme</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – Agence - Nantes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – Agence - Pérols</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Aubervilliers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Bouc-Bel-Air</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Canéjan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Illkirch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Landerneau</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Meyzieu</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Orchies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – AME – DR - Rungis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - AMIENS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - ANGERS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - ANNECY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - AUXERRE-SENS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - AVIGNON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BAYONNE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BIOT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BLOIS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BORDEAUX CANEJAN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BORDEAUX GRADIGNAN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BORDEAUX - MULTITECH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BOURG EN BRESSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - BREST</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CAEN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CALAIS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CAMMARATA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CANTELEU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CHAMBERY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CHRONOPOST CORBAS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CLERMONT-FERRAND</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - CORMONTREUIL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - COURTHEZON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - DIJON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - EPERNAY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - EPPSI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - FINISTERE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - FOS SUR MER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - GARDANNE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - GRENOBLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - GUEUGNON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - HEI-CMR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF-CDG</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF EST</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF FM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF-HOPITAUX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF-MULTISERVICE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF NORD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF-OPAC-DA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF OUEST</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF SUD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - IDF-TURGY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LAGNY LE SEC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LA ROCHE SUR YON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LA SEYNE SUR MER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LE HAVRE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LE MANS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LES PENNES MIRABEAU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LILLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LIMOGES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LNH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LORIENT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LORRAINE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LOUVIERS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LUNEL VIEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LYON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LYON CARRARD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - LYON-GERLAND</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MARCOULE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MAROLLES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR – MAROMME</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MARSEILLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MASSENA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - METZ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MEYZIEU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MEYZIEU LIMPA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MONTARGIS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MONTLUCON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MONTPELLIER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MULHOUSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NANCY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NANTES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NANTES AIRBUS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NATIONAL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NET EXPRESS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NEVERS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NICE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NIMES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - NIORT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - ORANGE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - ORLEANS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PALAISEAU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PAOLI CALMETTE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PAU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PERPIGNAN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - REIMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - RENNES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - RODEZ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - ROUEN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SAINT BRIEUC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SAINTES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SAINT ETIENNE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SAINT-NAZAIRE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - AEROPORTUAIRE (APFS)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - AQUITAINE – OCCITANIE (CANEJAN)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - AURA (MEYZIEU)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - GRAND EST (REIMS)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - HAUTS DE FRANCE (ORCHIES)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - NORMANDIE (LE HAVRE)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SECURITE - OUEST (CARQUEFOU – LE MANS)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - MARSEILLE - SECURITE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PARIS 1 - SECURITE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PARIS 12 - SECURITE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PARIS 2 - SECURITE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - PARIS 6 SNCF - SECURITE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - AST</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SNCF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - ST MICRO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - STRASBOURG</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - SUCY-LEROUX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TAISSY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TOULOUSE AUTERIVE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TOULOUSE - MULTITECH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TOULOUSE RAMONVILLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TOURS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TRANSKEO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TREMERY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TRICASTIN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - TROYES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - USP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - USP-CHARTRES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - USP-CLICHY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - USP-MONTROUGE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - USP-RATP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - VALENCE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - VAR-TOULON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - VENISSIEUX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - VILLEFONTAINE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - VILLENEUVE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - VITRY LE FRANCOIS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <valueName>FR - WAMBRECHIES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>LU</controllingFieldValue>
+                <valueName>LUX - AGS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>LU</controllingFieldValue>
+                <valueName>LUX - CITY ONE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>LU</controllingFieldValue>
+                <valueName>LUX - MTO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>LU</controllingFieldValue>
+                <valueName>LUX - Multi-agencies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>NL</controllingFieldValue>
+                <valueName>NL - VISSCHEDIJK CATERING BV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>NL</controllingFieldValue>
+                <valueName>NL - VISSCHEDIJK FACILITAIR BV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>NL</controllingFieldValue>
+                <valueName>NL - VISSCHEDIJK - Multi-agencies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>NL</controllingFieldValue>
+                <valueName>NL - VISSCHEDIJK SHOONMAAK + BV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>NL</controllingFieldValue>
+                <valueName>NL - VISSCHEDIJK SHOONMAAK NO BV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FR</controllingFieldValue>
+                <controllingFieldValue>NL</controllingFieldValue>
+                <valueName>NL - VISSCHEDIJK SHOONMAAK ZW BV</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>
