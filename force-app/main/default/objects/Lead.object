@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Kompass_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>Extenal Id for Kompass Id</description>
+        <externalId>true</externalId>
+        <label>Kompass Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Source</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3rd Party</fullName>
+                    <default>false</default>
+                    <label>3rd Party</label>
+                </value>
+                <value>
+                    <fullName>3rd Party Referral</fullName>
+                    <default>false</default>
+                    <label>3rd Party Referral</label>
+                </value>
+                <value>
+                    <fullName>Advertising</fullName>
+                    <default>false</default>
+                    <label>Advertising</label>
+                </value>
+                <value>
+                    <fullName>Client Referral</fullName>
+                    <default>false</default>
+                    <label>Client Referral</label>
+                </value>
+                <value>
+                    <fullName>Contract Development</fullName>
+                    <default>false</default>
+                    <label>Contract Development</label>
+                </value>
+                <value>
+                    <fullName>Direct Mail</fullName>
+                    <default>false</default>
+                    <label>Direct Mail</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>Government Procurement Process</fullName>
+                    <default>false</default>
+                    <label>Government Procurement Process</label>
+                </value>
+                <value>
+                    <fullName>Incoming Call</fullName>
+                    <default>false</default>
+                    <label>Incoming Call</label>
+                </value>
+                <value>
+                    <fullName>Operational Referral</fullName>
+                    <default>false</default>
+                    <label>Operational Referral</label>
+                </value>
+                <value>
+                    <fullName>Sales Referral</fullName>
+                    <default>false</default>
+                    <label>Sales Referral</label>
+                </value>
+                <value>
+                    <fullName>Self-generated</fullName>
+                    <default>false</default>
+                    <label>Self-generated</label>
+                </value>
+                <value>
+                    <fullName>Teleappointing</fullName>
+                    <default>false</default>
+                    <label>Teleappointing</label>
+                </value>
+                <value>
+                    <fullName>Telemarketing</fullName>
+                    <default>false</default>
+                    <label>Telemarketing</label>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+                <value>
+                    <fullName>Website / Email</fullName>
+                    <default>false</default>
+                    <label>Website / Email</label>
+                </value>
+                <value>
+                    <fullName>Business development</fullName>
+                    <default>false</default>
+                    <label>Business development</label>
+                </value>
+                <value>
+                    <fullName>FOI</fullName>
+                    <default>false</default>
+                    <label>FOI</label>
+                </value>
+                <value>
+                    <fullName>Office Sales Rep</fullName>
+                    <default>false</default>
+                    <label>Office Sales Rep</label>
+                </value>
+                <value>
+                    <fullName>Kompass</fullName>
+                    <default>false</default>
+                    <label>Kompass</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VAT_Number__c</fullName>
+        <description>Numéro de TVA intracommunautaire</description>
+        <externalId>false</externalId>
+        <label>VAT Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
